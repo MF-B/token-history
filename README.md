@@ -6,7 +6,7 @@
 
 **Never lose your AI-coding history —<br>snapshot it to git daily, chart it a dozen ways, show it anywhere.**
 
-[![Render charts](https://github.com/keli-wen/token-history/actions/workflows/render.yml/badge.svg?branch=master)](https://github.com/keli-wen/token-history/actions/workflows/render.yml)
+[![Render charts](https://github.com/MF-B/token-history/actions/workflows/render.yml/badge.svg?branch=master)](https://github.com/MF-B/token-history/actions/workflows/render.yml)
 [![uv](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json)](https://github.com/astral-sh/uv)
 ![Python ≥3.9](https://img.shields.io/badge/python-%E2%89%A53.9-3776AB?logo=python&logoColor=white)
 ![dependencies: zero](https://img.shields.io/badge/dependencies-zero-brightgreen)
@@ -66,7 +66,7 @@ The repo keeps a day-by-day history; the headline chart shows the last 30 days, 
 Hand your coding agent — Claude Code, Codex, whatever you drive — this one link and say *"set this up on my machine"*:
 
 ```
-https://raw.githubusercontent.com/keli-wen/token-history/master/SETUP.md
+https://raw.githubusercontent.com/MF-B/token-history/master/SETUP.md
 ```
 
 [`SETUP.md`](./SETUP.md) walks the agent through fork → configure → backfill → render → schedule → first push, with verification steps at each stage.

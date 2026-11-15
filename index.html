@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Token history</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #faf9f5;
+      --fg: #141413;
+      --muted: #6f6c63;
+      --card: #ffffff;
+      --border: #e8e6dc;
+      --link: #286b4f;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #141413;
+        --fg: #faf9f5;
+        --muted: #b0aea5;
+        --card: #1c1b19;
+        --border: #2e2d29;
+        --link: #6cc99e;
+      }
+    }
+    body { margin: 0; background: var(--bg); color: var(--fg); font: 14px system-ui, -apple-system, Segoe UI, sans-serif; }
+    main { max-width: 1000px; margin: 36px auto; padding: 0 24px; }
+    h1 { font-size: 28px; font-weight: 650; margin: 0 0 6px; }
+    p { color: var(--muted); margin: 0 0 28px; }
+    .panel { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin: 16px 0; box-shadow: 0 2px 8px #1414130a; }
+    .heatmap, .chart { width: 100%; height: auto; display: block; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; }
+    .links { display: flex; flex-wrap: wrap; gap: 12px 18px; }
+    .links a { color: var(--link); text-decoration: none; }
+    .links a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Token history</h1>
+    <p>AI coding usage · fedora-vps · Asia/Shanghai</p>
+    <section class="panel">
+      <img class="heatmap" src="./charts/day/calendar-tokens.svg" alt="Daily token heatmap">
+    </section>
+    <div class="grid">
+      <section class="panel">
+        <img class="chart" src="./charts/day/card.svg" alt="Token usage summary">
+      </section>
+      <section class="panel">
+        <img class="chart" src="./charts/week/ledger-tokens.svg" alt="Weekly token ledger">
+      </section>
+    </div>
+    <section class="panel">
+      <img class="chart" src="./charts/day/pixel-tokens.svg" alt="Daily pixel token chart">
+    </section>
+    <div class="grid">
+      <section class="panel">
+        <img class="chart" src="./charts/day/bar-tokens.svg" alt="Daily tokens">
+      </section>
+      <section class="panel">
+        <img class="chart" src="./charts/day/bar-cost.svg" alt="Daily cost">
+      </section>
+    </div>
+    <section class="panel links">
+      <a href="./charts/day/bar-tokens.svg">Daily tokens</a>
+      <a href="./charts/day/bar-cost.svg">Daily cost</a>
+      <a href="./charts/week/bar-tokens.svg">Weekly tokens</a>
+      <a href="./charts/month/bar-tokens.svg">Monthly tokens</a>
+      <a href="./charts/day/pixel-card.svg">Pixel card</a>
+      <a href="./charts/day/pixel-models.svg">Pixel models</a>
+      <a href="./charts/day/area-tokens.svg">Area chart</a>
+      <a href="./charts/day/terminal-tokens.svg">Terminal chart</a>
+      <a href="./SUMMARY.md">Summary</a>
+    </section>
+  </main>
+</body>
+</html>

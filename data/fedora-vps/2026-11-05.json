@@ -1,0 +1,29 @@
+{
+  "ccusageVersion": "20.0.51",
+  "collectedAt": "2026-11-15T04:09:40Z",
+  "date": "2026-11-05",
+  "host": "fedora-vps",
+  "sources": {
+    "codex": {
+      "cacheCreation": 0,
+      "cacheRead": 533040817,
+      "costUSD": 145.567109,
+      "input": 10824341,
+      "models": {
+        "gpt-6.1-sol": {
+          "cacheCreation": 0,
+          "cacheRead": 533040817,
+          "input": 10824341,
+          "output": 2000259,
+          "reasoningOutput": 943868,
+          "total": 545865417
+        }
+      },
+      "output": 2000259,
+      "reasoningOutput": 943868,
+      "total": 545865417
+    }
+  },
+  "status": "final",
+  "timezone": "Asia/Shanghai"
+}

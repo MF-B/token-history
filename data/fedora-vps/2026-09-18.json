@@ -1,0 +1,30 @@
+{
+  "ccusageVersion": "20.0.51",
+  "collectedAt": "2026-11-15T04:09:40Z",
+  "date": "2026-09-18",
+  "host": "fedora-vps",
+  "sources": {
+    "codex": {
+      "cacheCreation": 0,
+      "cacheRead": 43846016,
+      "costUSD": 104.848526,
+      "input": 5231496,
+      "models": {
+        "gpt-6-astra": {
+          "cacheCreation": 0,
+          "cacheRead": 43846016,
+          "input": 5231496,
+          "modelNameIsFallback": true,
+          "output": 173751,
+          "reasoningOutput": 16553,
+          "total": 49251263
+        }
+      },
+      "output": 173751,
+      "reasoningOutput": 16553,
+      "total": 49251263
+    }
+  },
+  "status": "final",
+  "timezone": "Asia/Shanghai"
+}

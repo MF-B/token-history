@@ -1,0 +1,56 @@
+{
+  "ccusageVersion": "20.0.51",
+  "collectedAt": "2026-11-15T04:09:40Z",
+  "date": "2026-10-21",
+  "host": "fedora-vps",
+  "sources": {
+    "codex": {
+      "cacheCreation": 0,
+      "cacheRead": 86500282,
+      "costUSD": 31.026054,
+      "input": 8188673,
+      "models": {
+        "ark/deepseek-v4.1-flash": {
+          "cacheCreation": 0,
+          "cacheRead": 25884544,
+          "input": 243319,
+          "output": 82603,
+          "reasoningOutput": 40498,
+          "total": 26210466
+        },
+        "gpt-5": {
+          "cacheCreation": 0,
+          "cacheRead": 348288,
+          "input": 267986,
+          "modelNameIsFallback": true,
+          "output": 16552,
+          "reasoningOutput": 0,
+          "total": 632826
+        },
+        "jiji-gpt/gpt-6.1-sol": {
+          "cacheCreation": 0,
+          "cacheRead": 42362771,
+          "input": 5972522,
+          "modelNameIsFallback": true,
+          "output": 467080,
+          "reasoningOutput": 242087,
+          "total": 48802373
+        },
+        "krill/gpt-6.1-sol": {
+          "cacheCreation": 0,
+          "cacheRead": 17904679,
+          "input": 1704846,
+          "modelNameIsFallback": true,
+          "output": 189695,
+          "reasoningOutput": 100443,
+          "total": 19799220
+        }
+      },
+      "output": 755930,
+      "reasoningOutput": 383028,
+      "total": 95444885
+    }
+  },
+  "status": "final",
+  "timezone": "Asia/Shanghai"
+}

@@ -1,0 +1,37 @@
+{
+  "ccusageVersion": "20.0.51",
+  "collectedAt": "2026-11-15T04:09:40Z",
+  "date": "2026-10-03",
+  "host": "fedora-vps",
+  "sources": {
+    "codex": {
+      "cacheCreation": 0,
+      "cacheRead": 3437207,
+      "costUSD": 4.857318,
+      "input": 1564318,
+      "models": {
+        "fluxion-gpt/gpt-6.1-sol": {
+          "cacheCreation": 0,
+          "cacheRead": 95971,
+          "input": 133721,
+          "output": 20311,
+          "reasoningOutput": 16578,
+          "total": 250003
+        },
+        "jiji-gpt/gpt-6.1-sol": {
+          "cacheCreation": 0,
+          "cacheRead": 3341236,
+          "input": 1430597,
+          "output": 62154,
+          "reasoningOutput": 30664,
+          "total": 4833987
+        }
+      },
+      "output": 82465,
+      "reasoningOutput": 47242,
+      "total": 5083990
+    }
+  },
+  "status": "final",
+  "timezone": "Asia/Shanghai"
+}

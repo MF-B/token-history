@@ -1,0 +1,47 @@
+{
+  "ccusageVersion": "20.0.51",
+  "collectedAt": "2026-11-15T04:09:40Z",
+  "date": "2026-10-22",
+  "host": "fedora-vps",
+  "sources": {
+    "codex": {
+      "cacheCreation": 0,
+      "cacheRead": 116570578,
+      "costUSD": 88.015005,
+      "input": 25036479,
+      "models": {
+        "ark/deepseek-v4.1-flash": {
+          "cacheCreation": 0,
+          "cacheRead": 255616,
+          "input": 73343,
+          "output": 11793,
+          "reasoningOutput": 6498,
+          "total": 340752
+        },
+        "gpt-5": {
+          "cacheCreation": 0,
+          "cacheRead": 0,
+          "input": 180171,
+          "modelNameIsFallback": true,
+          "output": 2268,
+          "reasoningOutput": 0,
+          "total": 182439
+        },
+        "jiji-gpt/gpt-6.1-sol": {
+          "cacheCreation": 0,
+          "cacheRead": 116314962,
+          "input": 24782965,
+          "modelNameIsFallback": true,
+          "output": 1191289,
+          "reasoningOutput": 588193,
+          "total": 142289216
+        }
+      },
+      "output": 1205350,
+      "reasoningOutput": 594691,
+      "total": 142812407
+    }
+  },
+  "status": "final",
+  "timezone": "Asia/Shanghai"
+}
