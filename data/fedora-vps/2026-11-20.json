@@ -1,6 +1,6 @@
 {
   "ccusageVersion": "20.0.51",
-  "collectedAt": "2026-11-20T11:36:16Z",
+  "collectedAt": "2026-11-20T17:37:10Z",
   "date": "2026-11-20",
   "host": "fedora-vps",
   "sources": {
@@ -23,6 +23,6 @@
       "total": 14551
     }
   },
-  "status": "partial",
+  "status": "final",
   "timezone": "Asia/Shanghai"
 }
