@@ -1,8 +1,8 @@
 {
-  "ccusageVersion": "20.0.51",
+  "ccusageVersion": "20.1.0",
   "earliest_date": "2026-06-08",
   "host": "fedora-vps",
-  "last_success_at": "2026-11-23T05:45:13Z",
+  "last_success_at": "2026-11-23T11:45:51Z",
   "last_success_date": "2026-11-23",
   "latest_date": "2026-11-23",
   "timezone": "Asia/Shanghai"
