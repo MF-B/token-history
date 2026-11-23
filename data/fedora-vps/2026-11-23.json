@@ -1,0 +1,28 @@
+{
+  "ccusageVersion": "20.0.51",
+  "collectedAt": "2026-11-23T05:45:13Z",
+  "date": "2026-11-23",
+  "host": "fedora-vps",
+  "sources": {
+    "antigravity": {
+      "cacheCreation": 0,
+      "cacheRead": 256891,
+      "costUSD": 0.561449,
+      "input": 119845,
+      "models": {
+        "gemini-4-neon": {
+          "cacheCreation": 0,
+          "cacheRead": 256891,
+          "costUSD": 0.561449,
+          "input": 119845,
+          "output": 5673,
+          "total": 382409
+        }
+      },
+      "output": 5673,
+      "total": 387628
+    }
+  },
+  "status": "partial",
+  "timezone": "Asia/Shanghai"
+}
