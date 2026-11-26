@@ -1,26 +1,26 @@
 {
   "ccusageVersion": "20.1.2",
-  "collectedAt": "2026-11-26T05:39:18Z",
+  "collectedAt": "2026-11-26T11:38:22Z",
   "date": "2026-11-26",
   "host": "fedora-vps",
   "sources": {
     "antigravity": {
       "cacheCreation": 0,
-      "cacheRead": 706996,
-      "costUSD": 1.674473,
-      "input": 484823,
+      "cacheRead": 48773586,
+      "costUSD": 19.271119,
+      "input": 2514442,
       "models": {
         "gemini-4-neon": {
           "cacheCreation": 0,
-          "cacheRead": 706996,
-          "costUSD": 1.674473,
-          "input": 484823,
-          "output": 2107,
-          "total": 1193926
+          "cacheRead": 48773586,
+          "costUSD": 19.271119,
+          "input": 2514442,
+          "output": 149514,
+          "total": 51437542
         }
       },
-      "output": 2107,
-      "total": 1199416
+      "output": 149514,
+      "total": 51582145
     }
   },
   "status": "partial",
